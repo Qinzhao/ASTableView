@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  ASTableView
+//
+//  Created by AllenQin on 16/6/14.
+//  Copyright © 2016年 AllenQin. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Masonry.h"
+#import "YYKit.h"
+#import "SVProgressHUD.h"
+#import "UITableView+FDTemplateLayoutCell.h"
+#define ScreenWidth  [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#endif 
