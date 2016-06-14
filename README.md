@@ -1,0 +1,2 @@
+# ASTableView
+UITableView的流畅性优化，fps保持在57-60左右，非常的流程，加上了动态获取图片。按照图片的比例大小显示。该代码感谢YYKit,Masonry,以及UITableView+FDTemplateLayoutCell的作者
