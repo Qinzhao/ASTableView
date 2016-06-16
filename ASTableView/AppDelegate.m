@@ -21,9 +21,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [self makeWindowVisible:launchOptions];
-#if defined(DEBUG)||defined(_DEBUG)
-    [[ASFPSManager sharedInstance] show:[UIApplication sharedApplication].keyWindow position:STATUS_BAR];
-#endif
+//#if defined(DEBUG)||defined(_DEBUG)
+//    [[ASFPSManager sharedInstance] show:[UIApplication sharedApplication].keyWindow position:STATUS_BAR];
+//#endif
     return YES;
 }
 

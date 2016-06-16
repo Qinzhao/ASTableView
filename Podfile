@@ -1,7 +1,7 @@
 platform :ios, "7.0"
 target :ASTableView do
 
-pod 'YYKit'
+pod 'ASFPSManager'
 pod 'Masonry'
 pod 'SVProgressHUD'
 

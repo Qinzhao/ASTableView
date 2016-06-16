@@ -26,7 +26,6 @@
 		D53B4F781D0FDB450030AB48 /* ASModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D53B4F771D0FDB450030AB48 /* ASModel.m */; };
 		D53B4F7B1D0FDB510030AB48 /* ASTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D53B4F7A1D0FDB510030AB48 /* ASTableViewCell.m */; };
 		D53B4F7E1D0FDB610030AB48 /* ASDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D53B4F7D1D0FDB610030AB48 /* ASDetailModel.m */; };
-		D555209B1D126BF300E60306 /* ASFPSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D555209A1D126BF300E60306 /* ASFPSManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,8 +63,6 @@
 		D53B4F7A1D0FDB510030AB48 /* ASTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTableViewCell.m; sourceTree = "<group>"; };
 		D53B4F7C1D0FDB610030AB48 /* ASDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDetailModel.h; sourceTree = "<group>"; };
 		D53B4F7D1D0FDB610030AB48 /* ASDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDetailModel.m; sourceTree = "<group>"; };
-		D55520991D126BF300E60306 /* ASFPSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFPSManager.h; sourceTree = "<group>"; };
-		D555209A1D126BF300E60306 /* ASFPSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFPSManager.m; sourceTree = "<group>"; };
 		EEB6F336E355E651717C912D /* libPods-ASTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASTableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -166,8 +163,6 @@
 		D53B4F561D0FDABE0030AB48 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D55520991D126BF300E60306 /* ASFPSManager.h */,
-				D555209A1D126BF300E60306 /* ASFPSManager.m */,
 				D53B4F791D0FDB500030AB48 /* ASTableViewCell.h */,
 				D53B4F7A1D0FDB510030AB48 /* ASTableViewCell.m */,
 				D53B4F6D1D0FDB2D0030AB48 /* ASDetailTableViewCell.h */,
@@ -344,7 +339,6 @@
 				D53B4F691D0FDB1C0030AB48 /* UITableView+FDIndexPathHeightCache.m in Sources */,
 				D53B4F781D0FDB450030AB48 /* ASModel.m in Sources */,
 				D53B4F421D0FDA5C0030AB48 /* AppDelegate.m in Sources */,
-				D555209B1D126BF300E60306 /* ASFPSManager.m in Sources */,
 				D53B4F3F1D0FDA5C0030AB48 /* main.m in Sources */,
 				D53B4F6B1D0FDB1C0030AB48 /* UITableView+FDTemplateLayoutCell.m in Sources */,
 				D53B4F7E1D0FDB610030AB48 /* ASDetailModel.m in Sources */,
@@ -411,7 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -450,7 +444,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -465,9 +459,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ASTableView/Config/PrefixHeader.pch";
 				INFOPLIST_FILE = ASTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qinzhao.ASTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -478,9 +474,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ASTableView/Config/PrefixHeader.pch";
 				INFOPLIST_FILE = ASTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qinzhao.ASTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
