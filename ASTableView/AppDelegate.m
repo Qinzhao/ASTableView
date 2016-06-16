@@ -8,7 +8,8 @@
 
 #import "AppDelegate.h"
 #import "ASHomeViewController.h"
-#import "JPFPSStatus.h"
+#import "ASFPSManager.h"
+
 
 @interface AppDelegate ()
 
@@ -21,10 +22,11 @@
     // Override point for customization after application launch.
     [self makeWindowVisible:launchOptions];
 #if defined(DEBUG)||defined(_DEBUG)
-    [[JPFPSStatus sharedInstance] open];
+    [[ASFPSManager sharedInstance] show:[UIApplication sharedApplication].keyWindow position:STATUS_BAR];
 #endif
     return YES;
 }
+
 
 - (void)makeWindowVisible:(NSDictionary *)launchOptions {
     
